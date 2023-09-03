@@ -159,6 +159,7 @@ def include_file_in_gles3_header(filename: str, header_data: GLES3HeaderStruct, 
             uline = uline.replace(";", "")
             lines = uline.split(",")
             for x in lines:
+                
 
                 x = x.strip()
                 x = x[x.rfind(" ") + 1 :]
